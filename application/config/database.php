@@ -41,7 +41,7 @@ $db['default']['hostname'] = "localhost";
 
 // MySQL
 $db['default']['username'] = "root";
-$db['default']['password'] = "password";
+$db['default']['password'] = "";
 $db['default']['database'] = "kalkun";
 $db['default']['dbdriver'] = "mysqli";
 
@@ -56,7 +56,7 @@ $db['default']['dbdriver'] = "mysqli";
 // $db['default']['dbdriver'] = "pdo";
 
 $db['default']['dbprefix'] = "";
-$db['default']['pconnect'] = TRUE;
+$db['default']['pconnect'] = FALSE;
 $db['default']['db_debug'] = TRUE;
 $db['default']['cache_on'] = FALSE;
 $db['default']['cachedir'] = "";

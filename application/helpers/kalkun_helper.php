@@ -214,8 +214,8 @@ function get_database_property($driver)
 	$mysql['escape_char'] = '`';
 	$mysql['driver'] = 'mysql';
 
-	$mysqli['name'] = 'mysqli';
-	$mysqli['file'] = 'mysqli';
+	$mysqli['name'] = 'mysql';
+	$mysqli['file'] = 'mysql';
 	$mysqli['human'] = 'MySQLi';
 	$mysqli['escape_char'] = '`';
 	$mysqli['driver'] = 'mysqli';

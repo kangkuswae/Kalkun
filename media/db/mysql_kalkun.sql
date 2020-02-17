@@ -328,4 +328,4 @@ CREATE TABLE `ci_sessions` (
   `timestamp` int(10) unsigned NOT NULL DEFAULT '0',
   `data` blob NOT NULL,
   KEY `ci_sessions_timestamp` (`timestamp`)
-) DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) DEFAULT CHARSET=latin1;
